@@ -1,11 +1,11 @@
 minimal-frontend
 ================
 
-Cookiecutter template for low-maintenance javascript frontend projects
+Cookiecutter template for low-maintenance javascript frontend projects.
 
 Usage
 -----
-Generate a new Cookiecutter template layout: `cookiecutter gh:epileptic-fish/cookiecutter-minimal-frontend`    
+Generate a new Cookiecutter template layout: `cookiecutter gh:epileptic-fish/cookiecutter-minimal-frontend`
 
 License
 -------

@@ -1,0 +1,4 @@
+#!/bin/bash
+node-sass \
+  --include-path styles \
+  styles/main.scss build/main.css
