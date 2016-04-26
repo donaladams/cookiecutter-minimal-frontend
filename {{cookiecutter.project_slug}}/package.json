@@ -10,7 +10,8 @@
     "watch-bundle": "watchify build/index.js -o build/main.js",
     "build-css": "./bin/build-css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "server": "http-server"
+    "server": "http-server",
+    "setup": "typings install"
   },
   "author": "{{ cookiecutter.full_name }}",
   "license": "MIT",
@@ -22,6 +23,7 @@
     "npm-parallel": "^2.0.1",
     "tsc": "^1.7",
     "typescript": "^1.8.10",
+    "typings": "^0.8.1",
     "watchify": "^3.7.0"
   },
   "dependencies": {
