@@ -11,7 +11,7 @@
     "build-css": "./bin/build-css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\"",
     "server": "http-server",
-    "setup": "typings install"
+    "postinstall": "typings install"
   },
   "author": "{{ cookiecutter.full_name }}",
   "license": "MIT",
